@@ -1,3 +1,4 @@
-var visitorAge = prompt('How old are you?');
-var visitorName = prompt('What is your name?');
-document.write(visitorName + ', I have bad news. You are ' + visitorAge);
+var hotText = 'MDN';
+var URL = 'https://developer.mozilla.org/';
+
+document.write('Click to return to ' + hotText.link(URL));
