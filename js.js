@@ -1,5 +1,3 @@
-var age = prompt('how many years have you lived?');
-var years = parseInt(age);
-years = years * 365;
+var random = Math.floor(Math.random() * 50) + 1;
 
-document.write('you have been alive for ' + years + ' days.');
+alert(random);
