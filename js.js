@@ -1,8 +1,3 @@
-var lives = 3;
+var visitorAge = prompt('How old are you?');
 
-var example = 'I am a variable';
-
-document.write(example);
-
-example = 'another example var';
-document.write(example);
+document.write(visitorAge);
