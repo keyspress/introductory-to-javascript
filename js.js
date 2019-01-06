@@ -1,7 +1,5 @@
-alert('Welcome to the page');
-var name = prompt('What is your name');
-var color = prompt('What is your favorite color?');
-var wtf = prompt('What is the air speed velocity of an unladen swallow?');
+var age = prompt('how many years have you lived?');
+var years = parseInt(age);
+years = years * 365;
 
-document.write('Hello ' + name + '. Your favorite color is ' + color);
-console.log('Program complete');
+document.write('you have been alive for ' + years + ' days.');
