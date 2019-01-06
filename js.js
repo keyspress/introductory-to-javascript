@@ -1,2 +1,3 @@
-alert('What up yo?');
-document.write('I said WHAT UP!!?!?');
+document.write('This is our javascript.');
+
+console.log('console message');
